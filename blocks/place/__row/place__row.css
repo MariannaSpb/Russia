@@ -1,0 +1,12 @@
+.place__row {
+	display: flex;
+	margin-bottom: 60px;
+}
+
+.place__row:last-of-type {
+	margin-bottom: 0;
+}
+
+.place__row--align-flex-end {
+	align-items: flex-end;
+}

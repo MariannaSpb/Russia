@@ -1,0 +1,23 @@
+@import url(./--bold/intro__text--bold.css);
+@import url(./--column/-left/intro__text--column-left.css);
+
+
+
+.intro__text {
+  font-size: 14px;
+  line-height: 23px;
+}
+
+
+
+
+/* .intro__text--column-left {
+	max-width: 683px;
+	font-size: 14px;
+	line-height: 23px;
+}
+
+.intro__text--column-right {
+	font-size: 10px;
+	line-height: 16px;
+} */

@@ -1,0 +1,36 @@
+.additional__item {
+	position: relative;
+	height: 330px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 4px;
+}
+
+
+.additional__item--nvrssk {
+background-image: url('../../../images/__item-bg-3.png');
+}
+
+.additional__item--shikhan {
+	background-image: url('../../../images/__item-bg-2.png');
+}
+
+.additional__item--nikola {
+	background-image: url('../../../images/__item-bg-4.png');
+}
+
+.additional__item--cherepovets {
+	background-image: url('../../../images/__item-bg-1.png');
+}
+
+
+/* @media (max-width: 768px) {
+	.additional__item {
+		position: relative;
+		height: 330px;
+		width: 25%;
+		background-size: cover;
+		background-position: center;
+		border-radius: 4px;
+	}
+} */

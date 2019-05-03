@@ -1,0 +1,12 @@
+.url__link {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: normal;
+	text-decoration-line: underline;
+	color: #FFFFFF;
+}
+
+.url__link:hover {
+  opacity: .8;
+}
+

@@ -1,0 +1,7 @@
+@import url('./__heading/url__heading.css');
+@import url('./__link/url__link.css');
+
+
+.url {
+	max-width: 282px;
+}

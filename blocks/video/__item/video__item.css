@@ -1,0 +1,21 @@
+.video__item {
+	position: relative;
+	display: block;
+  min-height: 323px;
+	width: 583px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #fff;
+	background-size: cover;
+  background-position: center;
+
+}
+
+
+.video__item--location {
+	background-image: url('../../../images/__item-bg.png');
+}
+
+.video__item--observatory {
+	background-image: url('../../../images/__item-bg-video.png');
+}

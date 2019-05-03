@@ -1,0 +1,14 @@
+@import url('./__image-item/place__image-item.css');
+@import url('./__image/place__image.css');
+@import url('./__row/place__row.css');
+@import url('./__text/place__text.css');
+@import url('./__title/place__title.css');
+
+.place {
+	margin-bottom: 72px;
+	color: #ffff;
+}
+
+.place:last-of-type {
+	margin-bottom: 102px;
+}
