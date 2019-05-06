@@ -6,3 +6,25 @@
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
 }
+
+
+@media screen and (max-width: 1024px) {
+	.lead__caption {
+		margin: 16px auto 0;
+	}
+}
+
+@media screen and (max-width : 768px) {
+  .lead__caption {
+    width: calc(100% - 48px);
+  }
+}
+
+
+
+@media screen and (max-width: 375px) {
+	.lead__caption {
+		width: calc(100% - 32px);
+		margin: 8px auto 0;
+	}
+}

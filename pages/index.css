@@ -14,8 +14,11 @@
 @import url('../blocks/additional/additional.css');
 
 .root {
-	min-width: 1280px;
-    background: #2A2C2F;
-		font-family: 'Inter';
-		color: white;
+	/* min-width: 1280px; */
+  background: #2A2C2F;
+	font-family: 'Inter';
+	color: white;
+	-webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: greyscale;
+
   }

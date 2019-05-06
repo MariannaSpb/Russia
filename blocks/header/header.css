@@ -10,3 +10,22 @@
     align-items: center;
     min-height: 82px;
 }
+
+@media screen and (max-width: 1280px) {
+	.header {
+		width: calc(100% - 96px);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.header {
+		width: calc(100% - 48px);
+	}
+}
+
+
+@media screen and (max-width: 375px) {
+	.header {
+		width: calc(100% - 32px);
+	}
+}
