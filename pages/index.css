@@ -8,14 +8,17 @@
 @import url('../blocks/places/places.css');
 @import url('../blocks/place/place.css');
 @import url('../blocks/url/url.css');
-@import url('./blocks/video/video.css');
+@import url('../blocks/video/video.css');
 @import url('../blocks/content-title/content-title.css');
 @import url('../blocks/content-subtitle/content-subtitle.css');
 @import url('../blocks/additional/additional.css');
 
 .root {
-	min-width: 1280px;
-    background: #2A2C2F;
-		font-family: 'Inter';
-		color: white;
+	/* min-width: 1280px; */
+  background: #2A2C2F;
+	font-family: 'Inter';
+	color: white;
+	-webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: greyscale;
+
   }

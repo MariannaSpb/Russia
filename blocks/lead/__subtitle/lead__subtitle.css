@@ -7,3 +7,22 @@
 	text-align: center;
 	color: #FFFFFF;
 }
+
+
+
+@media screen and (max-width : 768px) {
+	.lead__subtitle {
+		max-width: 720px;
+		font-size: 30px;
+		line-height: 36px;
+  }
+}
+
+
+@media screen and (max-width : 375px) {
+	.lead__subtitle {
+    max-width: 272px;
+		font-size: 16px;
+    line-height: 23px;
+  }
+}
