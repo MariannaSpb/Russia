@@ -1,7 +1,25 @@
 .place__title {
-	width: 457px;
+	/* width: 457px; */
+	width: calc(50% - 40px);
 	margin: 0;
 	margin-right: 40px;
 	font-size: 72px;
 	line-height: 65px;
+}
+
+@media screen and (max-width: 1024px) {
+	.place__title {
+		margin-right: 32px;
+    width: calc(50% - 32px);
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.place__title {
+		margin-right: 38px;
+    width: calc(50% - 38px);
+		font-size: 42px;
+		line-height: 46px;
+	}
 }

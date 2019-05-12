@@ -10,3 +10,16 @@
 .place__row--align-flex-end {
 	align-items: flex-end;
 }
+
+
+
+
+@media screen and (max-width: 700px) {
+	.place__row {
+		flex-direction: column;
+	}
+
+	.place__row--align-flex-end {
+		align-items: flex-start;
+	}
+}

@@ -3,6 +3,7 @@
 @import url('./__row/place__row.css');
 @import url('./__text/place__text.css');
 @import url('./__title/place__title.css');
+@import url('./__description/place__description.css');
 
 .place {
 	margin-bottom: 72px;
@@ -11,4 +12,11 @@
 
 .place:last-of-type {
 	margin-bottom: 102px;
+}
+
+
+@media screen and (max-width: 700px) {
+	.place {
+		margin-bottom: 48px;
+	}
 }
