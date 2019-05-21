@@ -1,10 +1,22 @@
-.additional__item {
+/* .additional__item {
 	position: relative;
 	height: 330px;
 	background-size: cover;
 	background-position: center;
 	border-radius: 4px;
+} */
+.additional__item {
+  width: calc((100% - 48px)/4);
+  padding-bottom: calc((330/284)*((100% - 48px)/4));
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
 }
+
+
+
 
 
 .additional__item--nvrssk {
@@ -24,13 +36,10 @@ background-image: url('../../../images/__item-bg-3.png');
 }
 
 
-/* @media (max-width: 768px) {
+
+@media screen and (max-width: 1024px) {
 	.additional__item {
-		position: relative;
-		height: 330px;
-		width: 25%;
-		background-size: cover;
-		background-position: center;
-		border-radius: 4px;
+
+
 	}
-} */
+}

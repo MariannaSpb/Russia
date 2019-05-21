@@ -1,0 +1,25 @@
+/* .additional__container {
+	display: grid;
+	max-width: 1184px;
+	width: calc(100% - 48px);
+	margin: 0 auto;
+	grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px;
+
+} */
+.additional__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap : wrap;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+	.additional__container {
+		width: calc((100% - 34px));
+		/* width: 100%; */
+    max-width: 991px;
+    margin: 0 auto;
+	}
+}
